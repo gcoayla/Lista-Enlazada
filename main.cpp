@@ -267,17 +267,17 @@ public:
 
 int main(){
     cout<<"hola"<<endl;
-    listaordenada<int> listita;
-    listita.insertar(5);
-    listita.insertar(1);
-    listita.insertar(3);
-    listita.insertar(9);
+    listaordenada<int> lista;
+    lista.insertar(5);
+    lista.insertar(1);
+    lista.insertar(3);
+    lista.insertar(9);
 
-    listita.imprimir();
-    listita.borrar(1);
-    listita.imprimir();
-    listita.insertar(3);
-    listita.imprimir();
+    lista.imprimir();
+    lista.borrar(1);
+    lista.imprimir();
+    lista.insertar(3);
+    lista.imprimir();
     
     return 0;
 }
